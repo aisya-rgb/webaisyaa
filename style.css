@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background-image: url(narkoba1.jpg);
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+    border: 3px solid #ccc;
+    background-color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e6e6fa;
+  }
+  
+  .breaking-news {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .say-no {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .main-content {
+    padding: 10px;
+  }
+  
+  .title {
+    text-align: center;
+    background-color: #ffcccc;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .description {
+    text-align: center;
+    background-color: #cea8d9;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .item {
+    flex: 1;
+    background-color: #e0ffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 200px;
+  }
+  
+  .image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: #80bebe;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+
